@@ -1,0 +1,125 @@
+.mainbox {
+    position: absolute;
+    background-color: #ffffff;
+    /* background-color: red; */
+    overflow: hidden;
+    width: 570px;
+    margin-left: 835px;
+    margin-top: 255px;
+    height: 590px;
+    box-shadow: 0px 0px 15px rgb(215, 215, 215);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.details {
+    background-color: #f2f6fc;
+    padding: 12px;
+    display: flex;
+    font-size: 14px;
+}
+.titel {
+    font-family: 'tahoma';
+}
+.minimizeicon {
+    margin-left: 390px;
+}
+.sizingicon {
+    margin-left: 15px;
+}
+.closeicon {
+    margin-left: 15px;
+}
+.minimizev {
+    position: absolute;
+    background-color: #f2f6fc;
+    /* background-color: red; */
+    display: flex;
+    height: 44px;
+    width: 300px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(215, 215, 215);
+    margin-left: 69em;
+    margin-top: 50em;
+}
+.minimizehmm {
+    font-family: 'tahoma';
+    margin-left: 13px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.minimizemm {
+    margin-left: 110px;
+    display: flex;
+    align-items: center;
+}
+.sizingiconmm {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.closeiconmm {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.fullsize {
+    background-color: #ffffff;
+    height: 47em;
+    width: 75em;
+    box-shadow: 0px 0px 15px rgb(215, 215, 215);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 9em;
+    margin-top: 3em;
+    overflow: hidden;
+}
+.fullsizehead {
+    display: flex;
+    background-color: #f2f6fc;
+    height: 40px;
+}
+.newhh {
+    padding: 10px;
+}
+.full2mini {
+    padding: 10px;
+    margin-left: 61em;
+}
+.full2sm {
+    padding: 10px;
+
+}
+.fullclose {
+    padding: 10px;
+}
+.demo11 {
+    font-size: 20px;
+    font-family: 'tahoma';
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: relative;
+    animation-name: go;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition: 10000ms;
+    border-radius: 50px;
+    padding: 10px;
+    color: #ffffff;
+}
+.body{
+    color: black;
+    background-color: black;
+}
+@keyframes go {
+  0%   {background-color:rgb(0, 255, 110); left:0px; top:0px;}
+  15% {background-color: aqua; left:100px; top:100px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    /* background-color: rgb(250, 250, 250); */
+}
+.wholedis {
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginfather {
+    padding: 150px;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+}
+.mainlogin {
+    width: 290px;
+    padding: 40px 70px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(163, 163, 163);
+    border: solid 5px #eaf1fb;
+}
+.cologo {
+    display: flex;
+    justify-content: center;
+    /* background-color: azure; */
+}
+.signin {
+    display: flex;
+    font-size: 35px;
+    padding: 10px;
+    justify-content: center;
+    font-weight: 600;
+}
+.detailssi {
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+}
+.emailclass {
+    padding: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.email {
+    border: solid #d3e3fd;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    /* border: 1px; */
+}
+.passwordclass {
+    padding: 6px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.password {
+    font-size: 13px;
+    border: solid #d3e3fd;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    /* border: 1px; */
+}
+.forgotemail {
+    color: blue;
+    padding: 5px 9px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.communitysd {
+    color: rgb(113, 113, 113);
+}
+.lmore {
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+    /* background-color: blanchedalmond; */
+}
+.ppcan {
+    display: flex;
+}
+.createac {
+    padding: 10px 1px;
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 50px rgb(242, 242, 242); */
+    /* background-color: tan; */
+}
+.blank {
+    margin: 20px;
+}
+.signinn {
+    margin-left: 30px;
+    display: flex;
+    justify-content: right;
+    padding: 14px 30px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: blue;
+    cursor: pointer;
+}

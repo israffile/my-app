@@ -1,0 +1,608 @@
+body {
+    background-color: #f6f8fc;
+    margin: 0;
+}
+.whloebody {
+    background-color: #f6f8fc;
+}
+.mainheader {
+    display: flex;
+    /* padding: 2px; */
+    /* border-radius: 10px; */
+}
+.optionic {
+    cursor: pointer;
+    padding: 2px 10px;
+}
+.dodi {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.globelic {
+    padding: 2px;
+}
+.gmailfnts {
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blackhead1 {
+    width: 70px;
+}
+.srcddd {
+    display: flex;
+    border: hidden;
+    border-radius: 50px;
+    overflow: hidden;
+    background-color: #eaf1fb;
+    border: hidden;
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+.srcddd:focus {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #5e5e5e;
+
+}
+.srcddicp {
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.srcddic {
+    justify-content: center;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.srcddic:hover {
+    background-color: #dde3ec;
+}
+.srchinput {
+    background-color: #eaf1fb;
+    border: hidden;
+    width: 600px;
+    height: 50px;
+    font-size: 19px;
+    color: #5e5e5e;
+    transition: all 250ms;
+}
+.srchinput:focus {
+    border: hidden;
+    background-color: #ffffff;
+}
+.srcssicp {
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.srcssic {
+    justify-content: center;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.srcssic:hover {
+    background-color: #dde3ec;
+}
+.blackhead2 {
+    width: 420px;
+}
+.helpbtn {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.settingbtn {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+}
+.profilepp {
+    padding: 10px;
+    border-radius: 20px;
+}
+.ppicturepp {
+    box-shadow: 0px 0px 10px rgb(212, 212, 212);
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    border: solid rgb(172, 172, 172);
+    cursor: pointer;
+}
+.logoutbtn {
+    position: absolute;
+    /* height: 370px; */
+    width: 400px;
+    right: 20px;
+    /* border: solid rgb(172, 172, 172); */
+    box-shadow: 0px 0px 10px rgb(175, 175, 175);
+    border-radius: 30px;
+    background-color: #e9eef6;
+    transition: 500ms;
+}
+.logoutbtnintropp {
+    display: flex;
+}
+.logoutbtnintro {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 110px;
+}
+.logoutbtncloseic {
+    padding: 10px 15px;
+    margin-left: 75px;
+    cursor: pointer;
+    /* background-color: antiquewhite; */
+    border-radius: 100px;
+    transition: all 250ms;
+}
+.logoutbtncloseic:hover {
+    background-color: #dce1e8;
+}
+.logoutbtngap {
+    margin: 5px;
+}
+.logoutbtnppic {
+    cursor: pointer;
+    /* padding: 10px; */
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 140px;
+    }
+.logoutbtnppicee {
+    position: absolute;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 50px;
+    left: 215px;
+    top: 125px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.logoutbtnppicee:hover {
+    background-color: #dce1e8;
+}
+.logoutbtnppiceett {
+    
+    font-size: 27px;
+    margin-left: 150px;
+    /* margin-bottom: 30px; */
+}
+.logoutbtngao01 {
+    width: 250px;
+    border-radius: 50;
+    margin-left: 75px;
+    cursor: pointer;
+}
+/* .logoutbtngao01 {
+
+} */
+.manageaccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black .2px;
+    font-size: 18px;
+    color: #0b57d0;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 15px ;
+}
+.logoutbtngap11 {
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.correction1231 {
+    display: flex;
+    margin: 2px;
+    background-color: white;
+    border-radius: 30px;
+    height: 60px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.correction1231:hover {
+    background-color: #dce1e8;
+}
+.correction123 {
+    display: flex;
+    margin: 2px;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.correction123:hover {
+    background-color: #dce1e8;
+}
+.correction1234 {    
+    display: flex;
+    margin: 2px;
+    background-color: white;
+    border-radius: 5px;
+    height: 60px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.correction1234:hover {
+    background-color: #dce1e8;
+}
+.ddd3ddd {
+    padding: 14px;
+}
+.correction1235 {   
+    display: flex; 
+    margin: 2px;
+    background-color: white;
+    border-radius: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 60px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.correction1235:hover {
+    background-color: #dce1e8;
+}
+.logoutbtn11 {
+    font-size: 16px;
+    margin-left: 6px;
+}
+.logoutbtn12 {
+    font-size: 16px;
+}
+.logoutbtn13 {
+    font-size: 16px;
+}
+.privacy1111 {
+    display: flex;
+}
+.pravacy0000 {
+    margin-left: 90px;
+}
+.privacy1122 {
+    font-size: 13px;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.privacy1122:hover {
+    background-color: #dce1e8;
+}
+.privacy1133 {
+    margin: 10px;
+    font-size: 40px;
+}
+.privacy1144 {
+    font-size: 13px;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.privacy1144:hover {
+    background-color: #dce1e8;
+}
+.downnearnobi {
+    margin-left: 150px;
+    background-color: #e9eef6;
+    border-radius: 100px;
+    padding: 5px;
+}
+.downnearnobi1 {
+    background-color: #e9eef6;
+    border-radius: 100px;
+    padding: 5px;
+}
+.downnearnobi2 {
+    margin-left: 5px;
+}
+.bdownnearnobi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    /* background-color: #b3b3b3; */
+}
+.aftermoreac {
+    display: flex;
+    align-items: center;
+}
+.nobitaprop {
+    display: flex;
+    margin: 20px;
+    border-radius: 50px;
+}
+.namenobitaprop {
+    font-size: 16px;
+}
+.downbtnwweerr {
+    margin-left: 175px;
+}
+.ppttpptt {
+    height: 30px;
+    width: 30px;
+}
+.wholebdyd {
+    display: flex;
+}
+.maind15 {
+    flex: 18;
+    background-color: #f6f8fc;
+}
+.composebtn {
+    /* background-color: #c2e7ff; */
+    /* padding: 5px; */
+    display: flex;
+}
+.composebtnc {
+    background-color: #c2e7ff;
+    border-radius: 17px;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 17px;
+    margin-left: 8px;
+}
+.composebtncic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.composebtt {
+    display: flex;
+}
+.composebtt1 {
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.composebtt1:hover {
+    background-color: #eaebef;
+}
+.composebtt13 {
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.detailsmore {
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 400ms;
+    height: 30px;
+    /* align-items: center; */
+}
+.detailsmore:hover {
+    background-color: #eaebef;
+}
+.more3e {
+    margin-left: 20px;
+}
+.more4e {
+    margin-left: 16px;
+}
+.composebtt111 {
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 220px;
+    align-items: center;
+}
+.composebtt12 {
+    padding: 5px 20px;
+}
+.detailsmorechh {
+    margin-left: 19px;
+    margin-top: 5px;
+    background-color: #f6f8fc;
+}
+/* .detailsmorechh:hover {
+    background-color: #eaebef;
+} */
+.labelscc {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+
+}
+.labelsccic {
+    margin-left: 110px;
+    padding: 7px 9px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.labelsccic:hover {
+    background-color: #eaebef;
+}
+/* .maind5 {
+    flex: 1;
+    border-left: solid rgb(127, 127, 127);
+} */
+.maind80 {
+    flex: 85;
+    background-color: white;
+    /* border: solid ; */
+    border-radius: 20px;
+    
+}
+.maind801 {
+    display: flex;
+    border-bottom: 1px solid rgb(127, 127, 127);
+    margin-top: 7px;
+    /* padding: 10px; */
+}
+.m801box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.m801box:hover {
+    background-color: #eaebef;
+}
+.m801arrow {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-bottom: 3px;
+}
+.m801arrow:hover {
+    background-color: #eaebef;
+}
+.m801reloadb {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+.m801reloadb:hover {
+    background-color: #eaebef;
+}
+.m801option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* border-radius: 100px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+.m801option:hover {
+    background-color: #eaebef;
+}
+.m801para {
+    display: flex;
+    margin-left: 850px;
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 15px;
+    border-radius: 16px;
+}
+.m801para:hover {
+    background-color: #eaebef;
+}
+.m801lefta {
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+.m801lefta:hover {
+    background-color: #eaebef;
+}
+.m801righta {
+    cursor: pointer;
+    margin-left: 30px;
+    padding: 2px 8px;
+    border-radius: 100px;
+}
+.m801righta:hover {
+    background-color: #eaebef;
+}
+.maind222 {
+    height: 86vh;
+}
+.maind10 {
+    /* background-color: #c2e7ff; */
+    flex: 5;
+}
+.maind10o1 {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    padding: 18px 1px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.maind10o1:hover {
+    background-color: #dedfe3;
+}
+.maind10o2 {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 18px 1px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.maind10o2:hover {
+    background-color: #dedfe3;
+}
+.maind10o3 {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    padding: 18px 1px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.maind10o3:hover {
+    background-color: #dedfe3;
+}
+.maind10o4 {
+    /* background-color: violet; */
+    display: flex ;
+    justify-content: center;
+    padding: 18px 1px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+.maind10o4:hover {
+    background-color: #dedfe3;
+}
